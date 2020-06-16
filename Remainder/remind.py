@@ -1,11 +1,5 @@
 import time
 from plyer import notification
-notification.notify(
-        title='Remainder',
-        message="You should look far.",
-        app_icon="eye-solid.ico"
-)
-
 if __name__ == '__main__':
     while True:
         notification.notify(
